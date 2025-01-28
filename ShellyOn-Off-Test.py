@@ -32,7 +32,7 @@ def turn_shelly_off(ip_address):
         return False
 
 if __name__ == "__main__":
-    shelly_ip = "192.168.0.151"  # Replace with your Shelly device's IP address
+    shelly_ip = "192.168.xxx.xxx"  # Replace with your Shelly device's IP address
 
     # Turn Shelly on
     if turn_shelly_on(shelly_ip):
